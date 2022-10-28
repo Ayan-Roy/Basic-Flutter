@@ -18,7 +18,7 @@ class Dashboard extends StatelessWidget {
         width: 300.0,
         padding: EdgeInsets.all(10.0),
         margin: EdgeInsets.fromLTRB(10, 20, 10, 10),
-        alignment: Alignment.center,
+        alignment: Alignment.bottomCenter,
         decoration: BoxDecoration(
           color: Colors.tealAccent,
           //borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20.0)),
@@ -30,10 +30,10 @@ class Dashboard extends StatelessWidget {
           "Ayan Roy",
           style: TextStyle(
             fontSize: 24.0,
-            color: Colors.black,
+            color: Colors.tealAccent,
             fontWeight: FontWeight.bold,
           ),
-          
+
         ),
       ),
     );
